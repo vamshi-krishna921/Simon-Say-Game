@@ -24,7 +24,6 @@ function gameFlash() {
   let randCol = colors[rand];
   let selectColor = document.querySelector(`.${randCol}`);
   gameSeq.push(randCol);
-  console.log(gameSeq);
   flashing(selectColor);
 }
 
