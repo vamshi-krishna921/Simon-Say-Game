@@ -1,0 +1,48 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 4px;
+}
+p{
+    font-size: 1.2rem;
+}
+.box-container {
+  width: 400px;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 200px 200px;
+  gap: 3px;
+  margin-top: 10px;
+}
+.box {
+  width: 100%;
+  height: 100%;
+ border: 10px solid black;
+ border-radius: 10px;
+}
+.red{
+    background-color: #d55075;
+}
+.blue{
+    background-color: #58a0b9;
+}
+.yellow{
+    background-color: rgb(255, 255, 76);
+}
+.green{
+    background-color: rgb(62, 255, 62);
+}
